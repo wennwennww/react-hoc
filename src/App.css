@@ -1,0 +1,32 @@
+/* style 參考 https://codepen.io/sandrarodgers/pen/bGWVozp */
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Ubuntu';
+  padding: 10px 30px;
+  transition: filter 500ms ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(0.5);
+}
+
+.button--cancel {
+  background-color: #fb8383;
+  margin-right: 2px;
+}
+
+.button--accept {
+  background-color: #2d8a68;
+  margin-left: 2px;
+}
