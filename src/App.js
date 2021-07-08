@@ -1,11 +1,11 @@
 import React from 'react';
-import Button from './components/Button';
-import Label from './components/Label';
+import ButtonClickAction from './components/ButtonClickAction';
+import ButtonMoveAction from './components/ButtonMoveAction';
 
 const App = () => (
   <div>
-    <Button />
-    <Label />
+    <ButtonClickAction />
+    <ButtonMoveAction />
   </div>
 )
 

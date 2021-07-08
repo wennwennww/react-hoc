@@ -11,8 +11,6 @@ const Hoc = (WrappedComponent) => {
       }
     }
 
-    // This is the enhancement - adding increase method to ANY WrappedComponent
-    // that will be passed to the Hoc function
     increaseCounter() {
       this.setState(
         prevState => ({
@@ -23,7 +21,6 @@ const Hoc = (WrappedComponent) => {
 
     render() {
       return (
-        // Better to bind method here than in constructor as bind creates a new function, thus consumes memory.
         <WrappedComponent {...this.state} increase={() => this.increaseCounter()} />
       )
     }
