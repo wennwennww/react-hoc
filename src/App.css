@@ -18,15 +18,15 @@ button {
 
 button:hover {
   cursor: pointer;
-  filter: brightness(0.5);
+  border: 2px solid black;
 }
 
 .button--cancel {
-  background-color: #fb8383;
+  background-color: #ff3333;
   margin-right: 2px;
 }
 
 .button--accept {
-  background-color: #2d8a68;
+  background-color: #33adff;
   margin-left: 2px;
 }
