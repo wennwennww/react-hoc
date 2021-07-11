@@ -1,4 +1,6 @@
 // https://zh-hant.reactjs.org/docs/higher-order-components.html
+// https://pjchender.dev/react/react-higher-order-component/
+
 import React from 'react';
 
 const Hoc = (WrappedComponent) => {

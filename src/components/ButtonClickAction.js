@@ -4,7 +4,8 @@ import React from "react";
 //   <button className="button--cancel" onClick={props.increase}>Btn clicks count: {props.counter}</button>
 // )
 
-// export default Hoc(ButtonClickAction);
+// // 使用 HOC 的方式是在要套用此 HOC 的元件載入，並在最後 export 的時候呼叫它：
+// export default Hoc(ButtonClickAction); 
 
   class ButtonClickAction extends React.Component {
     constructor(props) {
@@ -29,6 +30,5 @@ import React from "react";
       )
     }
   }
-
 
 export default ButtonClickAction;
